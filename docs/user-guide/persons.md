@@ -118,6 +118,13 @@ When a person record is deleted, any associated profile photo is automatically c
 
 Photo uploads are processed through the **Uppy** uploader — drag-and-drop a file directly onto the photo area on the Person Editor page.
 
+### Upload size and resizing
+
+- Pick any JPEG or PNG up to 50 MB, including a full-size phone photo. Your browser shrinks it to the stored size (600x600) and never enlarges it.
+- The webcam option is available for person and family photos.
+- HEIC/HEIF images are not supported. Export the photo as JPEG or PNG first.
+- API callers that skip the browser are limited to 16 megapixels of source image.
+
 ---
 
 ## Why is some information on the Person View shown in red text?
