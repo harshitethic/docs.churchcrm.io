@@ -10,7 +10,7 @@ ChurchCRM's settings are spread across multiple locations for intuitive access. 
 :::tip Quick Navigation
 Use this guide to find where any setting is configured:
 - **Church Information** — Admin → Church Info
-- **People Settings** — People → Dashboard → People Settings button
+- **People Settings** — People → Admin → People Settings
 - **Map Settings** — People → Map → Map Settings button
 - **Localization & Formats** — Admin → Localization & Formats
 - **Email Configuration** — Admin → System Settings → Email tab
@@ -45,41 +45,59 @@ Church name is **required** and will be requested on first setup. Many features 
 
 ## People Settings
 
-**Location:** People → Dashboard → Click **"People Settings"** button (admin-only)
+**Location:** People → Admin → People Settings (admin-only). The same **People Settings** button is in the header of the People Dashboard and of every People admin page.
 
-Settings that control how people and family information is displayed and managed.
+The page opens with shortcuts to the People lists and editors (Person Classifications, Person Properties, Person Custom Fields, Family Roles, Family Properties, Family Custom Fields, Volunteer Opportunities), followed by three groups of settings.
+
+:::tip Changes save automatically
+There is no Save button. Each setting saves as soon as you change it and a "Settings saved successfully" message confirms it. Text boxes save when you click out of them.
+:::
+
+### People
 
 | Setting | Description | Default |
 |---------|-------------|---------|
-| **Self-registration** | Allow visitors to self-register as new families. When enabled, a link appears on the login page. | Off |
-| **Hide deceased from directory** | Exclude deceased members from printed directories and CSV exports | On |
+| **Person name display style** | How names are written (for example FirstName MiddleName LastName, or LastName, Title FirstName) | FirstName MiddleName LastName |
+| **Person initials style** | Avatar initials: one character from first and last name, or two from the first name | First + Last |
+| **Hide Address Without Family** | Hide the address field for people who are not in a family | On |
+| **Hide Friend Date** | Hide the Friend Date field in the Person Editor | Off |
+| **Hide Deceased from Directory** | Leave deceased members out of printed directories and CSV exports | On |
+
+### Families
+
+| Setting | Description | Default |
+|---------|-------------|---------|
+| **Head of House Role** | The family role that counts as head of household | Head of Household |
+| **Spouse Role** | The family role that counts as spouse | Spouse |
+| **Child Role** | The family role that counts as a child | Child |
+| **Hide Wedding Date** | Hide the Wedding Date field in the Family Editor | Off |
+| **Hide Newsletter Subscriptions** | Hide newsletter subscription management in the Family Editor | Off |
+| **Uppercase Zip/Postcodes** | Save zip and postal codes in UPPERCASE | Off |
+
+### New Members & Greeting
+
+| Setting | Description | Default |
+|---------|-------------|---------|
+| **Self-Registration** | Allow visitors to register their own family. When enabled, a link appears on the login page. | Off |
+| **Notification Recipients** | The people who get an email when a new person or family is added. Search and pick them by name. | None |
+| **Include Details in Notifications** | Add contact and demographic details to that email | Off |
+| **Greeter Message 1 / 2** | Up to 255 characters each, shown near the end of the notification email. Line breaks are kept. | Empty |
+
+### Settings that live on the classification list
+
+Two settings are columns on the **Person Classifications** editor (People → Admin → Person Classifications), not on this page. See [Classifications](../user-guide/classifications.md).
+
+- **Inactive**: people in this classification are treated as inactive
+- **In Directory**: this classification starts ticked on the Directory report
 
 ---
 
-## People & Family Configuration
+## Default Location and Map Fields
 
-**Location:** Admin → System Settings → People tab
-
-Detailed settings for people management and directory display.
-
-| Setting | Description | Default |
-|---------|-------------|---------|
-| **Default country** | Pre-fills country field on new person/family forms |  |
-| **Default city** | Pre-fills city field on new forms |  |
-| **Default state** | Pre-fills state field on new forms |  |
-| **Default ZIP code** | Pre-fills ZIP on new forms |  |
-| **Person name format** | How names display (FirstName LastName, LastName FirstName, etc.) | FirstName LastName |
-| **Person initials style** | Avatar initials (FirstName + LastName, or FirstName only) | First + Last |
-| **Hide person address** | Hide address fields for people not assigned to a family | On |
-| **Hide friend date** | Disable the "Friend Date" field in Person Editor | Off |
-| **Hide wedding date** | Disable the "Wedding Date" field in Family Editor | Off |
-| **Hide latitude/longitude** | Hide manual geocoding fields (background geocoding still runs) | Off |
-| **Inactive classifications** | Classifications to mark as inactive (comma-separated IDs) |  |
-| **Family roles — Head of House** | Person role type for head of household |  |
-| **Family roles — Spouse** | Person role type for spouse |  |
-| **Family roles — Child** | Person role type for children |  |
-| **Force UPPERCASE ZIP codes** | Auto-uppercase all ZIP/postal codes entered | Off |
-| **Hide family newsletter** | Disable newsletter subscription management in Family Editor | Off |
+| Setting | Where | Description |
+|---------|-------|-------------|
+| **Default country, city, state, ZIP code** | Admin → Church Info | Pre-fill the address fields on new person and family forms |
+| **Hide latitude/longitude** | People → Map → Map Settings | Hide the manual geocoding fields (background geocoding still runs) |
 
 ---
 
@@ -206,10 +224,8 @@ Control what appears in the global search.
 
 | Setting | Description | Default |
 |---------|-------------|---------|
-| **New member notification** | Send email when family/person added | Off |
-| **Notification recipients** | Person IDs to notify (comma-separated) |  |
-| **Include data in notifications** | Add contact details to notification email | Off |
-| **Birthday emails** | Auto-send birthday greeting emails | Off |
+| **New member notification** | An email goes to the Notification Recipients when a family or person is added (set under [People Settings](#new-members--greeting)) | Off until recipients are chosen |
+| **Birthday emails** | Auto-send birthday greeting emails (Admin → Feature Toggles) | Off |
 | **Background jobs warning** | Alert admin if scheduled tasks haven't run (hours) | 26 |
 | **Background jobs interval** | Minimum minutes between timer job runs | 15 |
 

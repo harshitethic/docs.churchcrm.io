@@ -23,7 +23,7 @@ Classifications help you categorize people in your congregation for record-keepi
 
 ### Viewing & Editing Classifications
 
-1. Navigate to **People → Classification Manager**
+1. Navigate to **People → Admin → Person Classifications** (also reachable from the cards on **People → Admin → People Settings**)
 2. Here you can:
    - **Add** - Type a new name and click "Add New Classification"
    - **Edit** - Change any existing classification name
@@ -31,6 +31,15 @@ Classifications help you categorize people in your congregation for record-keepi
    - **Delete** - Remove unused classifications
 
 > **Important:** Click "Save Changes" before using any buttons, or your edits will be lost!
+
+### Inactive and In Directory
+
+Each classification has two checkboxes. They save as soon as you tick or untick them; you do not need "Save Changes".
+
+- **Inactive** — people in this classification are treated as inactive. They are left out of the dashboard counts and the photo gallery.
+- **In Directory** — this classification starts ticked when you open the Directory report. You can still change the selection each time you run the report.
+
+The header of this page has a **People Settings** button that returns to [People Settings](../administration/system-settings.md#people-settings).
 
 ---
 
@@ -46,14 +55,14 @@ When generating reports or exporting data, you can filter by classification to t
 ### Changing a Person's Classification
 
 **For an Individual:**
-1. Open the [Person's](Persons) record
+1. Open the [Person's](./persons.md) record
 2. Click **Edit**
 3. Find the **Classification** dropdown
 4. Select the new classification
 5. Click **Save**
 
 **For an Entire Family:**
-1. Open the [Family](Families) record
+1. Open the [Family](./families.md) record
 2. Click **Assign a New Classification**
 3. Select the new classification
 4. Confirm the change

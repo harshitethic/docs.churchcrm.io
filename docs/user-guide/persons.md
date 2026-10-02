@@ -56,7 +56,7 @@ The status is reversible: edit the person and clear **Deceased** if it was selec
 
 ChurchCRM preserves the person's record, pledges, payments, notes, and history. Deceased people are automatically excluded from workflows intended for living members, including birthday reminders, search autocomplete, kiosk and event rosters, group contact exports, mailing labels, Mailchimp synchronization, and living-member statistics.
 
-Administrators can control whether deceased people appear in printed directories and CSV exports with **Hide deceased members from the printed directory and CSV exports** in the People settings. Voting-member reporting always excludes deceased people.
+Administrators can control whether deceased people appear in printed directories and CSV exports with **Hide deceased members from the printed directory and CSV exports** in **People → Admin → People Settings → People** (admin-only). Voting-member reporting always excludes deceased people.
 
 ## Timeline Filters
 

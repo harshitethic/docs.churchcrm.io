@@ -11,17 +11,22 @@ This page lets you quickly find where any setting is located in the ChurchCRM UI
 
 | I want to... | Location | Setting |
 |---|---|---|
-| Enable visitor self-registration | People → Dashboard → People Settings | Self-registration |
-| Hide deceased people from exports | People → Dashboard → People Settings | Hide deceased from directory |
-| Change how names display (format) | Admin → System Settings → People | Person name format |
-| Change person avatar initials | Admin → System Settings → People | Person initials style |
-| Set default country for new families | Admin → System Settings → People | Default country |
-| Set default city | Admin → System Settings → People | Default city |
-| Set default state | Admin → System Settings → People | Default state |
-| Set default ZIP code | Admin → System Settings → People | Default ZIP code |
-| Disable "Friend Date" field | Admin → System Settings → People | Hide friend date |
-| Disable "Wedding Date" field | Admin → System Settings → People | Hide wedding date |
-| Auto-uppercase ZIP codes | Admin → System Settings → People | Force UPPERCASE ZIP codes |
+| Enable visitor self-registration | People → Admin → People Settings → New Members & Greeting | Self-Registration |
+| Choose who is emailed about new people and families | People → Admin → People Settings → New Members & Greeting | Notification Recipients |
+| Add a greeting to the new-member email | People → Admin → People Settings → New Members & Greeting | Greeter Message 1 / 2 |
+| Hide deceased people from exports | People → Admin → People Settings → People | Hide Deceased from Directory |
+| Change how names display (format) | People → Admin → People Settings → People | Person name display style |
+| Change person avatar initials | People → Admin → People Settings → People | Person initials style |
+| Set default country for new families | Admin → Church Info | Default country |
+| Set default city | Admin → Church Info | Default city |
+| Set default state | Admin → Church Info | Default state |
+| Set default ZIP code | Admin → Church Info | Default ZIP code |
+| Disable "Friend Date" field | People → Admin → People Settings → People | Hide Friend Date |
+| Disable "Wedding Date" field | People → Admin → People Settings → Families | Hide Wedding Date |
+| Auto-uppercase ZIP codes | People → Admin → People Settings → Families | Uppercase Zip/Postcodes |
+| Choose which family roles are head, spouse and child | People → Admin → People Settings → Families | Head of House / Spouse / Child Role |
+| Mark a classification as inactive | People → Admin → Person Classifications | Inactive column |
+| Choose which classifications start ticked on the Directory report | People → Admin → Person Classifications | In Directory column |
 
 ## 🏛️ Church Information
 
@@ -39,7 +44,7 @@ This page lets you quickly find where any setting is located in the ChurchCRM UI
 |---|---|---|
 | Set initial map zoom level | People → Map → Map Settings | Map default zoom level |
 | Set map center point | Admin → Church Info | Latitude/Longitude |
-| Hide lat/lon fields from users | Admin → System Settings → People | Hide latitude/longitude |
+| Hide lat/lon fields from users | People → Map → Map Settings | Hide latitude/longitude |
 
 ## 💰 Finance & Donations
 
@@ -115,14 +120,14 @@ This page lets you quickly find where any setting is located in the ChurchCRM UI
 | Show fundraiser menu | Admin → System Settings → Finance | Enable Fundraiser module |
 | Show Sunday School in menu | Admin → System Settings → Advanced | Enable Sunday School module |
 | Show Events in menu | Admin → System Settings → Advanced | Enable Events module |
-| Show/hide specific field types | Admin → System Settings → People | Hide person address, Hide friend date, Hide wedding date |
+| Show/hide specific field types | People → Admin → People Settings | Hide Address Without Family, Hide Friend Date, Hide Wedding Date |
 
 ## 📊 Reporting & Exports
 
 | I want to... | Location | Setting |
 |---|---|---|
-| Exclude deceased from printed directory | People → Dashboard → People Settings | Hide deceased from directory |
-| Hide family newsletter subscription field | Admin → System Settings → People | Hide family newsletter |
+| Exclude deceased from printed directory | People → Admin → People Settings → People | Hide Deceased from Directory |
+| Hide family newsletter subscription field | People → Admin → People Settings → Families | Hide Newsletter Subscriptions |
 | Control page margins/spacing in reports | Admin → System Settings → Reports | Left margin, Line thickness |
 
 ## 🛠️ Advanced & Developer
@@ -147,11 +152,11 @@ Quick reference of which admin page contains each setting category:
 | **Admin → Localization & Formats** | Language, timezone, date/time/number formats |
 | **Admin → Security & Permissions** | Password rules, session timeout, 2FA |
 | **Admin → System Settings → Email** | SMTP configuration, sender info, email features |
-| **Admin → System Settings → People** | People/family display options, classifications |
 | **Admin → System Settings → Finance** | Currency, fiscal year, donation options |
 | **Admin → System Settings → Search** | Search scope and result limits |
 | **Admin → System Settings → Advanced** | Logging, APIs, features, telemetry |
-| **People → Dashboard → People Settings** | Self-registration, deceased directory |
+| **People → Admin → People Settings** | Name and initials style, hidden fields, family roles, self-registration, new-member notifications and greeter messages |
+| **People → Admin → Person Classifications** | Classification names and order, Inactive and In Directory flags |
 | **People → Map → Map Settings** | Map zoom level |
 
 ---
