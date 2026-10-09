@@ -51,7 +51,7 @@ Settings that control how people and family information is displayed and managed
 
 | Setting | Description | Default |
 |---------|-------------|---------|
-| **Self-registration** | Allow visitors to self-register as new families. When enabled, a link appears on the login page. | Off |
+| **Self-registration** | Allow visitors to self-register as new families. When enabled, a link appears on the login page. Staff review sign-ups on [Self Registrations](/user-guide/self-registrations). | Off |
 | **Hide deceased from directory** | Exclude deceased members from printed directories and CSV exports | On |
 
 ---

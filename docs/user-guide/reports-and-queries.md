@@ -24,7 +24,7 @@ ChurchCRM provides built-in reports and database queries to help you extract and
 
 ### Contact & Directory Reports
 - **Contact Lists** - Phone and email lists
-- **People Directory** - Printable directory grouped by family
+- **People Directory** - Printable directory grouped by family. People still awaiting review on [Self Registrations](/user-guide/self-registrations) are left out until they are approved.
 - **Letters and Mailing Labels** - For postal mailings (see [Mailing labels](#mailing-labels) below)
 
 ### Membership Reports
