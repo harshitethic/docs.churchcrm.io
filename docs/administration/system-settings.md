@@ -156,6 +156,7 @@ See [Email Setup](./email-setup.md) for detailed configuration instructions.
 | **Use donation envelopes** | Track contributions via numbered envelopes | Off |
 | **Checks per deposit slip** | How many check line items per deposit form | 14 |
 | **Scanned check images** | Allow attaching scanned check images | Off |
+| **Require check number on check payments** | Require a check number for check payments. Turning this off also turns off duplicate check-number detection | On |
 | **Non-deductible donations** | Allow recording non-tax-deductible gifts | Off |
 
 ---

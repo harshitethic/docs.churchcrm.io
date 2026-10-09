@@ -33,8 +33,8 @@ In ChurchCRM 7.7, fiscal-year selectors are used consistently across finance wor
 
 1. Open the [Family](/user-guide/families) record for the donor.
 2. Scroll to the bottom and click **Add a new payment**.
-3. Enter **Date**, **Amount**, **Fund**, and **Method** (Cash, Check, etc.).
-4. Click **Save**.
+3. Enter **Date**, **Amount**, **Fund**, and **Method** (Cash, Check, etc.). A check payment also needs a **Check #** unless an administrator has made that field optional.
+4. Click **Save**, or press **Ctrl+Enter** (**⌘+Enter** on Mac).
 
 ### Creating a Deposit Slip
 
@@ -103,6 +103,16 @@ Payments are very similar to pledges. There are two ways in which payments can b
 
 * **From the Family View:** When viewing a Family, a link for _"Add a new payment"_ will be near the bottom of the screen. Enter the information and click _"Save"_.
 * **Batch Entry:** Use _"Save and Add"_ to save the current payment and prepare the form for the next family.
+
+### Keyboard shortcut on the payment and pledge editor
+
+On a new payment or pledge, **Ctrl+Enter** (**⌘+Enter** on Mac) runs **Save and Add Another**. When you are editing an existing record, the same keys run **Save**. Pressing Enter by itself does not save.
+
+After each save the **Family** field is focused, so a deposit can be entered from the keyboard. A short hint sits next to the buttons on a computer with a mouse or trackpad. Phones and tablets do not show that hint. The buttons stay disabled while a save is in progress, so holding the keys does not post the same payment twice.
+
+### Check numbers
+
+A check payment requires a check number unless an administrator turns that off under **Admin → System Settings → Finance → Require check number on check payments**. The setting is on by default. When it is off, a check payment can be saved with **Check #** left blank. Turning it off also turns off duplicate check-number detection, so the same check can be entered more than once.
 
 ## How do I edit the QuickBooks Deposit Ticket Layout?
 

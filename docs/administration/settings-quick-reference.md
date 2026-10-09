@@ -52,6 +52,7 @@ This page lets you quickly find where any setting is located in the ChurchCRM UI
 | Set currency position ($ before or after) | Admin → Localization & Formats | Currency position |
 | Use numbered donation envelopes | Admin → System Settings → Finance | Use donation envelopes |
 | Track scanned check images | Admin → System Settings → Finance | Scanned check images |
+| Require a check number on check payments | Admin → System Settings → Finance | Require check number on check payments |
 | Allow non-deductible donations | Admin → System Settings → Finance | Non-deductible donations |
 
 ## 🌍 Language & Localization
