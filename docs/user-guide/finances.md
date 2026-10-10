@@ -34,7 +34,7 @@ In ChurchCRM 7.7, fiscal-year selectors are used consistently across finance wor
 1. Open the [Family](/user-guide/families) record for the donor.
 2. Scroll to the bottom and click **Add a new payment**.
 3. Enter **Date**, **Amount**, **Fund**, and **Method** (Cash, Check, etc.). A check payment also needs a **Check #** unless an administrator has made that field optional.
-4. Click **Save**, or press **Ctrl+Enter** (**⌘+Enter** on Mac).
+4. Click **Save** to keep this payment. On a new payment, **Ctrl+Enter** (**⌘+Enter** on Mac) is a different action: it runs **Save and Add Another** and leaves the form ready for the next payment.
 
 ### Creating a Deposit Slip
 
