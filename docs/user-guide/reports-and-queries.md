@@ -54,7 +54,7 @@ ChurchCRM provides built-in reports and database queries to help you extract and
 
 ## Mailing labels
 
-Mailing labels for any set of people are produced from the [Cart](./cart.md#generate-mailing-labels): put the people in the Cart, then click **Labels** in the Cart Functions bar. The **Generate Labels** dialog offers one label per person or per family, bulk-mail presort, a "To the parents of" prefix, Avery and tractor-feed label types, font and size, a start row and column, and PDF or CSV output.
+One way to print mailing labels is the [Cart](./cart.md#generate-mailing-labels): put the people in the Cart, then click **Labels** in the Cart Functions bar. The **Generate Labels** dialog offers one label per person or per family, bulk-mail presort, a "To the parents of" prefix, Avery and tractor-feed label types, font and size, a start row and column, and PDF or CSV output.
 
 **Which address is printed:** the person's own address when one has been entered, otherwise the family address. Households that keep their address on the family record only — the normal case — get correct labels; a label never mixes a person's street with the family's city.
 
